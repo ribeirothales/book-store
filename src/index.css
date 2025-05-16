@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+/* Adicione aqui estilos globais personalizados, se necessário */
+body {
+  font-family: 'Poppins', sans-serif; /* Fonte base do template Booksaw */
+  background-color: #F9F5F0; /* Cor de fundo 'cream' do template Booksaw */
+  color: #374151; /* Cor de texto padrão (dark-text) */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif; /* Fonte para títulos do template Booksaw */
+  color: #1F2937; /* Cor de texto para cabeçalhos (heading-text) */
+}
+
