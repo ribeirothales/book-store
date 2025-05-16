@@ -12,16 +12,16 @@ const BookCard = ({ title, author, price, originalPrice, imageUrl, showCartButto
             className="w-full h-full object-contain p-4 transition-transform duration-500 ease-in-out group-hover:scale-105"
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center text-light-text">
+          <div className="w-full h-full flex items-center justify-center text-light-text shadow-2xl">
             No Image
           </div>
         )}
         {showCartButton && (
           <button 
-            className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-brand text-white text-xs uppercase font-semibold py-2 px-4 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-brand-light focus:outline-none whitespace-nowrap"
-            onClick={(e) => { e.stopPropagation(); alert('Added to cart: ' + title); }}
+            className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black text-white text-xs uppercase font-semibold py-2 px-4 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-brand-light focus:outline-none whitespace-nowrap"
+            onClick={(e) => { e.stopPropagation(); alert( title + ' foi adicionado'); }}
           >
-            <ShoppingCart size={14} className="inline mr-1.5" /> Add to Cart
+            <ShoppingCart size={14} className="inline mr-1.5" /> Adicionar ao carrinho
           </button>
         )}
       </div>
@@ -34,7 +34,7 @@ const BookCard = ({ title, author, price, originalPrice, imageUrl, showCartButto
           {originalPrice && (
             <span className="text-sm text-light-text line-through mr-2">${originalPrice}</span>
           )}
-          <span className="text-xl font-bold text-brand">${price}</span>
+          <span className="text-xl font-bold text-brand">R${price}</span>
         </div>
       </div>
     </div>
