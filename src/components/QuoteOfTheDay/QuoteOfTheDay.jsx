@@ -8,10 +8,10 @@ const QuoteOfTheDay = () => {
         {/* The title "Quote of the day" is visually part of the blockquote in the template, not a separate heading */}
         <blockquote className="text-3xl lg:text-4xl font-serif text-heading-text mb-6 lg:mb-8 relative pt-8">
           <p className="leading-relaxed">
-            “The more that you read, the more things you will know. The more that you learn, the more places you’ll go.”
+            “Com uma linguagem simples, procuro demonstrar que, seguindo algumas premissas básicas, isso é possível. Entendendo seus gastos, conversando com a família e praticando diariamente, em pouco tempo sua situação atual se modificará. ”
           </p>
         </blockquote>
-        <cite className="text-light-text font-medium not-italic text-base lg:text-lg">Dr. Seuss</cite>
+        <cite className="text-light-text font-medium not-italic text-base lg:text-lg">Antônio André</cite>
       </div>
     </section>
   );

@@ -39,7 +39,7 @@ const Footer = () => {
         {/* Copyright and Social Media */}
         <div className="border-t border-gray-300 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
           <p className="text-gray-500 mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} BOOKSAW. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Antônio André. All Rights Reserved.
           </p>
           <div className="flex space-x-4">
             {/* Placeholder for Social Media Icons */}

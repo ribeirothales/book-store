@@ -13,9 +13,9 @@ const FeaturedBooks = () => {
   return (
     <section className="bg-cream py-16 lg:py-24 px-6 md:px-12 lg:px-24">
       <div className="container mx-auto text-center">
-        <p className="text-light-text text-sm tracking-wider uppercase mb-2">Some quality items</p>
+        <p className="text-light-text text-sm tracking-wider uppercase mb-2">Livros</p>
         <h2 className="text-4xl lg:text-5xl font-serif font-bold text-heading-text mb-12 lg:mb-16">
-          Featured Books
+          em promoção!
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10 mb-12 lg:mb-16">
           {featuredBooksData.map((book) => (
