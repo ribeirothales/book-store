@@ -78,14 +78,12 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="lg:hidden absolute top-full left-0 right-0 bg-cream shadow-lg py-4 px-6 z-40 border-t border-gray-200">
+        <div className="lg:hidden absolute top-full left-0 right-0 bg-[#F9F5F0] shadow-lg py-4 px-6 z-40 border-t border-gray-200">
           {/* Mobile Top Bar items */}
           <div className="flex flex-col space-y-3 mb-4 pb-4 border-b border-gray-200">
-            <a href="#" className="text-light-text hover:text-brand transition-colors flex items-center"><User size={18} className="mr-2"/> Account</a>
-            <a href="#" className="text-light-text hover:text-brand transition-colors flex items-center"><ShoppingCart size={18} className="mr-2"/> Cart:(0 $)</a>
-            <div className="flex items-center">
-              <input type="text" placeholder="Search..." className="w-full p-2 border border-gray-300 rounded-md text-sm"/>
-            </div>
+            <a href="#" className="text-light-text hover:text-brand transition-colors flex items-center"><User size={18} className="mr-2"/> Minha conta</a>
+            <a href="#" className="text-light-text hover:text-brand transition-colors flex items-center"><ShoppingCart size={18} className="mr-2"/> Carrinho: (0 R$)</a>
+            
           </div>
           
           <nav className="flex flex-col space-y-3 mb-4">
@@ -100,8 +98,8 @@ const Header = () => {
               </a>
             ))}
           </nav>
-          <a href="#" className="w-full text-center bg-brand border-2 border-brand text-white font-semibold py-2.5 px-5 rounded hover:bg-brand-light hover:border-brand-light hover:text-dark-text transition-colors duration-300 text-sm">
-            GET PRO
+          <a href="#" className="w-full text-center bg-[#A07C43] border-2 border-brand text-white font-semibold py-2.5 px-5 rounded hover:bg-brand-light hover:border-brand-light hover:text-dark-text transition-colors duration-300 text-sm">
+            Baixe grátis
           </a>
           <div className="flex justify-center space-x-4 mt-6">
             {socialLinks.map(social => (

@@ -3,10 +3,10 @@ import { Search, User, ShoppingCart, Menu, X, Facebook, Twitter, Youtube, Instag
 
 const Footer = () => {
   const footerSections = {
-    'About Us': ['About Us', 'Vision', 'Careers', 'Press & Media', 'Contact'],
-    'Discover': ['Home', 'Shop', 'Pages', 'Blog', 'Categories'],
-    'My Account': ['Sign In', 'My Cart', 'My Wishlist', 'Track Order', 'Help'],
-    'Help': ['Customer Service', 'FAQs', 'Shipping Info', 'Returns & Exchanges', 'Privacy Policy'],
+    'Mapa do site': ['Home', 'Livros', 'Quem sou', 'Blog', 'Minha conta', 'Contato'],
+    // 'Discover': ['Home', 'Shop', 'Pages', 'Blog', 'Categories'],
+    'Minha conta': ['Entrar', 'Meu carrinho', 'Lista de desejos'],
+    'Contato': ['antonioandre@gmail.com', '21 9754-7538',],
   };
 
     const socialLinks = [
@@ -19,7 +19,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#eedcce] py-5 px-6 md:px-12 lg:px-24 text-gray-700">
       <div className="">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Logo and Slogan */}
           <div className="lg:col-span-1 mb-8 md:mb-0">
             <div className="text-3xl font-serif font-bold text-gray-800 mb-4">
