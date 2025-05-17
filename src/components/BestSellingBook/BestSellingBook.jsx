@@ -3,13 +3,13 @@ import minhaImagemHero3 from '../../assets/book3.jpg';
 
 const BestSellingBook = () => {
   return (
-    <section className="bg-white py-16 lg:py-24 px-6 md:px-12 lg:px-24">
+    <section className="bg-cream py-16 lg:py-24 px-6 md:px-12 lg:px-24">
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16">
         {/* Book Image */}
         <div className="lg:w-2/5 flex justify-center lg:justify-start">
           {/* Placeholder for Book Image - ensure it matches template's style */}
           <div className="w-72 h-[450px] sm:w-80 sm:h-[500px] lg:w-[380px] lg:h-[580px] bg-cream rounded-lg shadow-xl flex items-center justify-center">
-            <img src="/placeholder-bestselling-book.jpg" alt="Best Selling Book" className="w-full h-full object-contain p-8"/>
+            <img src={minhaImagemHero3} alt="Best Selling Book" className="w-full h-full object-contain p-8"/>
           </div>
         </div>
 

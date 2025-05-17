@@ -9,6 +9,7 @@ const featuredBooksData = [
   { id: 'fb1', title: 'Faça acontecer', author: 'Antônio André', price: '40,00', originalPrice: null, imageUrl: minhaImagemHero1 },
   { id: 'fb2', title: 'Do luto à vida', author: 'Antônio André', price: '38,00', originalPrice: null, imageUrl: minhaImagemHero2 },
   { id: 'fb3', title: 'Faça acontecer II', author: 'Antônio André', price: '45,00', originalPrice: null, imageUrl: minhaImagemHero3 },
+  { id: 'fb3', title: 'Faça acontecer II', author: 'Antônio André', price: '45,00', originalPrice: null, imageUrl: minhaImagemHero3 },
   // { id: 'fb4', title: 'Once Upon A Time', author: 'Antônio André', price: '35.00', originalPrice: null, imageUrl: '/placeholder-featured-4.jpg' },
 ];
 

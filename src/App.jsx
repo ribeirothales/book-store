@@ -21,9 +21,9 @@ function App() {
       {/* <ServicesIcons /> */}
       <FeaturedBooks />
       <BestSellingBook />
-      <PopularBooks />
+      {/* <PopularBooks /> */}
       <QuoteOfTheDay />
-      <BooksWithOffer />
+      {/* <BooksWithOffer /> */}
       <NewsletterSubscribe />
       {/* <LatestArticles /> */}
       {/* <DownloadApp /> */}

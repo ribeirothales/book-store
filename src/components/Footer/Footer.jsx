@@ -1,4 +1,5 @@
 import React from 'react';
+import { Search, User, ShoppingCart, Menu, X, Facebook, Twitter, Youtube, Instagram, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   const footerSections = {
@@ -8,8 +9,15 @@ const Footer = () => {
     'Help': ['Customer Service', 'FAQs', 'Shipping Info', 'Returns & Exchanges', 'Privacy Policy'],
   };
 
+    const socialLinks = [
+      { icon: Facebook, href: '#', label: 'Facebook' },
+      { icon: Linkedin, href: '#', label: 'Linkedin' },
+      { icon: Youtube, href: '#', label: 'Youtube' },
+      { icon: Instagram, href: '#', label: 'Instagram' }, 
+    ];
+
   return (
-    <footer className="bg-cream py-16 px-6 md:px-12 lg:px-24 text-gray-700">
+    <footer className="bg-[#eedcce] py-5 px-6 md:px-12 lg:px-24 text-gray-700">
       <div className="">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
           {/* Logo and Slogan */}
@@ -37,16 +45,18 @@ const Footer = () => {
         </div>
 
         {/* Copyright and Social Media */}
-        <div className="border-t border-gray-300 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
+        <div className="border-t border-gray-300 pt-2 flex flex-col md:flex-row justify-between items-center text-sm">
           <p className="text-gray-500 mb-4 md:mb-0">
             &copy; {new Date().getFullYear()} Antônio André. All Rights Reserved.
           </p>
           <div className="flex space-x-4">
-            {/* Placeholder for Social Media Icons */}
-            <div className="w-6 h-6 bg-gray-300 rounded-full"></div>
-            <div className="w-6 h-6 bg-gray-300 rounded-full"></div>
-            <div className="w-6 h-6 bg-gray-300 rounded-full"></div>
-            <div className="w-6 h-6 bg-gray-300 rounded-full"></div>
+            <div className="flex items-center space-x-6">
+              {socialLinks.map(social => (
+                <a key={social.label} href={social.href} aria-label={social.label} className="hover:text-brand transition-colors">
+                  <social.icon size={18} />
+                </a>
+              ))}
+            </div>
           </div>
         </div>
       </div>

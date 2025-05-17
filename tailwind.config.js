@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         'cream': '#F9F5F0',
+        'mediumcream': '#EEDCCE',
         'brand': {
           DEFAULT: '#A07C43', // Main accent color from template buttons/links
           light: '#D3BFA0',  // Lighter accent for borders/hovers
